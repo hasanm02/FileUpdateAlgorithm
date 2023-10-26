@@ -57,7 +57,7 @@ A key part of my algorithm involves iterating through the IP addresses that are 
 remove_list. To do this, I incorporated a for loop:
 <br/>
   
-<img src="https://i.imgur.com/0QPF7bC.png" height="50%" width="50%"/>
+<img src="https://i.imgur.com/0QPF7bC.png" height="30%" width="40%"/>
    
    <h2>Remove IP addresses that are on the remove list</h2>
 
@@ -80,7 +80,7 @@ I had to update the allow list file with the updated list of IP addresses as the
   
 <img src="https://i.imgur.com/UPGsjqp.png" height="50%" width="50%"/>
  
-The iterable's contents are all combined into a string using the.join() method. A string that contains characters that, when joined into a string, will divide the iterable's elements is given to the.join() method. In this approach, I created a string from the list of ip_addresses using the.join() method so that I could send it as an argument to the.write() method when writing to the "allow_list.txt" file. The separator was a single space (" ").
+The iterable's contents are all combined into a string using the.join() method. A string that contains characters that, when joined into a string, will divide the iterable's elements is given to the.join() method. In this approach, I created a string from the list of ip_addresses using the.join() method so that I could send it as an argument to the.write() method when writing to the "allow_list.txt" file. The separator was a single space  (" ").
 
 I then updated the file using a second with statement and the.write() method: <br/>
   
